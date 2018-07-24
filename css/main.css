@@ -688,11 +688,11 @@ h6 {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 120px 10px;
 }
 
 .section-title {
-  padding: 0 20px 30px 20px;
+  padding: 0 10px 30px 10px;
 }
 
 .section-title h2 {
@@ -1192,8 +1192,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .video-left h2 {
   margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .video-img {
@@ -1514,7 +1512,7 @@ textarea {
   font-size: 16px;
   line-height: inherit;
   margin: 30px 0;
-  padding: 10px 50px;
+  padding: 10px 45px;
   text-transform: capitalize;
   transition: all 0.15s ease 0s;
 }
@@ -1546,7 +1544,7 @@ textarea {
   color: #000;
   font-size: 16px;
   line-height: inherit; 
-  padding: 10px 50px;
+  padding: 10px 45px;
   text-transform: capitalize;
   transition: all 0.25s ease 0s;
   font-weight: 400;
@@ -1993,12 +1991,10 @@ main {
 
 @media (max-width: 767px) {
   .video-left {
-    padding: 45px 0 0 0;
+    padding-top: 45px;
+    padding-left:0;
     text-align: center;
-  }
-  /* tutorial */
-  .video-text {
-    font-size: 43px !important;
+    margin:0 10px;
   }
   #faq {
     padding-top: 120px;
