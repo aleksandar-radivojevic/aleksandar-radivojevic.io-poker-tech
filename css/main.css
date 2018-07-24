@@ -983,11 +983,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/hero.jpg);
   background-size: cover;
-  height: 120vh;
+  height: 100%;
 }
 
 .banner-content {
-  margin-top: -70px;
+  /* margin-top: -70px; */
   text-align: center;
 }
 
@@ -1034,7 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* FEATURE AREA */
 
 .feature-area {
-  margin-top: -230px;
+  margin-top: -200px;
 }
 
 .laptop {
@@ -1192,6 +1192,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .video-left h2 {
   margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .video-img {
@@ -1543,8 +1545,7 @@ textarea {
   border-radius: 3px;
   color: #000;
   font-size: 16px;
-  line-height: inherit;
-  margin: 30px 0;
+  line-height: inherit; 
   padding: 10px 50px;
   text-transform: capitalize;
   transition: all 0.25s ease 0s;
@@ -2019,9 +2020,6 @@ main {
   /* price */
   .price-area {
     padding-bottom: 20px !important;
-  }
-  .mt-35 {
-    margin-top: 15px;
   }
   /* banner */
   .banner-content p {
